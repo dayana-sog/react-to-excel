@@ -89,7 +89,8 @@ const App = () => {
     // loop over the rows
     for (const row of d) {
       const values = headers.map((header) => {
-        return `"${row[header]}"`;
+        const escape = `${row[header]}`.replace(/"/g, '\\"');
+        return `"${escape}"`;
       });
       csvRows.push(values.join(','));
     }
@@ -98,7 +99,7 @@ const App = () => {
   };
 
   const download = (data) => {
-    const blob = new Blob([data], { type: 'text/csv;charset=utf-8' });
+    const blob = new Blob([data], { type: 'text/csv' });
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.setAttribute('hidden', '');
