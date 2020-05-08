@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 400 16px 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothig: antialiased;
+  background-color: #eee;
+}
+
+input, button, textarea {
+  font: 500 18px 'Source Sans Pro', sans-serif;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  background-color: red;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  width: 45%;
+  height: 15rem;
+  margin: 5rem 5rem;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-avatar {
+  background: #fff;
+  border: 2px solid red;
+  border-radius: 35%;
+  width: 16rem;
+}
+
+.header-user__informations {
+  margin-left: 3rem;
+}
+
+.flex-large {
+  width: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+
