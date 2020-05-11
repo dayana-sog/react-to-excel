@@ -43,12 +43,14 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+
+  position: relative;
 }
 
 .header {
   width: 45%;
   height: 15rem;
-  margin: 5rem 5rem;
+  margin: 5rem 35rem;
 
   display: flex;
   justify-content: flex-start;
@@ -67,12 +69,29 @@ button {
 }
 
 .flex-large {
+  text-align: center;
   width: auto;
   background-color: #fff;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+
+  margin-bottom: 3rem;
 }
+
+.undraw {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+
+  top: 4rem;
+  right: 35rem;
+}
+
+.text-h2 {
+  margin: 3rem;
+}
+
 
 

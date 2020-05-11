@@ -20,4 +20,8 @@ export const Container = styled.div`
   th {
     border-bottom: 1px solid #d4d4d4;
   }
+
+  .muted-button {
+    margin-left: 10px;
+  }
 `;

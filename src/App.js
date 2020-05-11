@@ -7,6 +7,7 @@ import EditUserForm from './Form/EditWO';
 import ServicesTable from './Table';
 
 import avatar from './assets/avatar.json';
+import undraw from './assets/undraw.svg';
 // import { Container } from './styles';
 
 const App = () => {
@@ -14,24 +15,10 @@ const App = () => {
   const woData = [
     {
       id: 1,
-      wo: 14425,
-      date: 86876987,
-      entregues: 7653765,
-      recebidos: 76547625,
-    },
-    {
-      id: 2,
-      wo: 98928,
-      date: 9786876,
-      entregues: 7653765,
-      recebidos: 76547625,
-    },
-    {
-      id: 3,
-      wo: 76787,
-      date: 7658765,
-      entregues: 7653765,
-      recebidos: 76547625,
+      wo: '1111',
+      date: '11/11/1111',
+      entregues: 1111,
+      recebidos: 1111,
     },
   ];
 
@@ -139,14 +126,17 @@ const App = () => {
           <p>Contacto: 910 777 926</p>
           <p>Email: hgd1313@gmail.com</p>
         </div>
+
+        <div>
+          <img src={undraw} alt="undraw" className="undraw" />
+        </div>
       </div>
 
-      <div className="container">
-        <h1>Serviços</h1>
-        <button type="button" onClick={handleExcel}>
-          Export Excel
-        </button>
+      <button type="button" onClick={handleExcel}>
+        Export Excel
+      </button>
 
+      <div className="container">
         <div className="flex-row">
           <div className="flex-large">
             {editing ? (
@@ -162,13 +152,13 @@ const App = () => {
               </div>
             ) : (
               <div>
-                <h2>Adicionar Serviço</h2>
+                <h2 className="text-h2">Adicionar Serviço</h2>
                 <AddServiceForm addWO={addWO} />
               </div>
             )}
           </div>
           <div className="flex-large">
-            <h2>Todos Serviços</h2>
+            <h2 className="text-h2">Todos Serviços</h2>
             <ServicesTable
               services={services}
               deleteWo={deleteWo}
