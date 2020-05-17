@@ -31,11 +31,11 @@ const EditWO = (props) => {
         placeholder="WO"
       />
       <input
-        type="text"
+        type="date"
         name="date"
         value={service.date}
         onChange={handleInputChange}
-        placeholder="Data"
+        placeholder="DD/MM/YYYY"
       />
       <input
         type="text"

@@ -37,11 +37,11 @@ const AddServiceForm = (props) => {
         placeholder="WO"
       />
       <input
-        type="text"
+        type="date"
         name="date"
+        placeholder="DD/MM/YYYY"
         value={service.date}
         onChange={handleInputChange}
-        placeholder="Date"
       />
       <input
         type="text"
@@ -49,6 +49,7 @@ const AddServiceForm = (props) => {
         value={service.entregues}
         onChange={handleInputChange}
         placeholder="Eq. Entregues"
+        required
       />
       <input
         type="text"
@@ -56,6 +57,7 @@ const AddServiceForm = (props) => {
         value={service.recebidos}
         onChange={handleInputChange}
         placeholder="Eq. Recolhidos"
+        required
       />
       <button type="submit">Adicionar Serviço</button>
     </form>
