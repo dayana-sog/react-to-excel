@@ -123,8 +123,8 @@ const App = () => {
         </div>
         <div className="header-user__informations">
           <h3>Herbert Dantas</h3>
-          <p>Contacto: 910 777 926</p>
-          <p>Email: hgd1313@gmail.com</p>
+          <p> <strong>Contacto:</strong> 333 333 333</p>
+          <p><strong>Email: </strong> fulano@gmail.com</p>
         </div>
 
         <div>
@@ -132,7 +132,7 @@ const App = () => {
         </div>
       </div>
 
-      <button type="button" onClick={handleExcel}>
+      <button type="button" className="button-export" onClick={handleExcel}>
         Export Excel
       </button>
 
@@ -151,11 +151,11 @@ const App = () => {
                 />
               </div>
             ) : (
-              <div>
-                <h2 className="text-h2">Adicionar Serviço</h2>
-                <AddServiceForm addWO={addWO} />
-              </div>
-            )}
+                <div>
+                  <h2 className="text-h2">Adicionar Serviço</h2>
+                  <AddServiceForm addWO={addWO} />
+                </div>
+              )}
           </div>
           <div className="flex-large">
             <h2 className="text-h2">Todos Serviços</h2>

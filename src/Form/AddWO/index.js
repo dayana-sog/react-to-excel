@@ -59,7 +59,7 @@ const AddServiceForm = (props) => {
         placeholder="Eq. Recolhidos"
         required
       />
-      <button type="submit">Adicionar Serviço</button>
+      <button type="submit">Adicionar</button>
     </form>
   );
 };

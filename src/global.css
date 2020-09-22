@@ -48,12 +48,12 @@ button {
 }
 
 .header {
-  width: 45%;
+  width: 60%;
   height: 15rem;
-  margin: 5rem 35rem;
+  margin: 5rem 30rem;
 
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -78,20 +78,22 @@ button {
   box-sizing: border-box;
 
   margin-bottom: 3rem;
+
+  position: relative;
 }
 
 .undraw {
   width: 20rem;
   height: 20rem;
-  position: absolute;
-
-  top: 4rem;
-  right: 35rem;
 }
 
 .text-h2 {
   margin: 3rem;
 }
 
+.button-export {
+  position: relative;
+  left: 30rem;
 
+}
 
