@@ -3689,9 +3689,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -6742,9 +6742,10 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-"lottie-api@github:bodymovin/lottie-api#master":
+lottie-api@bodymovin/lottie-api#master:
   version "1.0.3"
-  resolved "https://codeload.github.com/bodymovin/lottie-api/tar.gz/3878f3acb1466a012553a08b929a12b11937c855"
+  uid d4d6a320fb060a06f1d0823e676047cd5332007e
+  resolved "https://codeload.github.com/bodymovin/lottie-api/tar.gz/d4d6a320fb060a06f1d0823e676047cd5332007e"
 
 lottie-react-web@^2.1.4:
   version "2.1.4"
